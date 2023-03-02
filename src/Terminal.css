@@ -5,15 +5,18 @@
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+    vertical-align: bottom;
+    
   }
   
-  .output {
-    padding: 10px;
+  .output{
+    float: left;
+    font-size: 18px;
   }
   
   .output .input {
-    color: green;
-    padding: 10px;
+    color: paleturquoise;
+   
   }
   
   .input {
@@ -23,8 +26,11 @@
     font-family: monospace;
     font-size: inherit;
     padding: 10px;
-    width: 90%;
+    width: 90vw;
     height: 10px;
+    font-size: 18px;
+    
+
    
     
   }
@@ -34,19 +40,22 @@
   }
 
  
-  label {
+  .terminalname {
    
-    font-size: 12px;
+    font-size: 18px;
     color: palevioletred;
     height: auto;
     width: auto;
     vertical-align: middle;
     text-align: left;
     float:left;
+  
 }
 .oneline{
     display: flex;
     flex-direction: row;
     justify-content: center;
     vertical-align: middle;
+    position: fixed;
+    bottom: 0;
 }
