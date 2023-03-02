@@ -19,7 +19,10 @@ function App() {
         setOutput([...output, {type: "text", value: "Hi im ria, 2nd year CS at MEC.Pick me bc im v cool and cute and i really like IEEE pwease <3"}]);
       }
       else if(input === "help"){
-        setOutput([...output, {type: "text", value: "commands: hi, aboutme, redirect"}])
+        setOutput([...output, {type: "text", value: "commands: hi, aboutme, clear, redirect"}])
+      }
+      else if(input === "clear"){
+        setOutput([]);
       }
       else{
         let words = input.split(' ');
@@ -36,7 +39,7 @@ function App() {
 
         }
         else{
-          
+
         }
       }
      
