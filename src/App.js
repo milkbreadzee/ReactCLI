@@ -35,6 +35,9 @@ function App() {
           window.open(url, "_blank");
 
         }
+        else{
+          
+        }
       }
      
      

@@ -6,12 +6,20 @@
     width: 100vw;
     overflow: hidden;
     vertical-align: bottom;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
     
   }
   
+  .terminal::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
   .output{
     float: left;
     font-size: 18px;
+    padding-bottom: 2rem;
+    
   }
   
   .output .input {
